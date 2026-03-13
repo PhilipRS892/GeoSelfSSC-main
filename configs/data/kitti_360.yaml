@@ -1,0 +1,19 @@
+type: "KITTI_360"
+data_path: "/data/GPT/semantic scene completion/KITTI-360"
+data_segmentation_path: "/data/GPT/geoselfssc-main/panoptic_deeplab_R101_os32_cityscapes_hr"
+data_depth_path: "/data/GPT/geoselfssc-main/data_depth"
+data_depth_std_path: "/data/GPT/geoselfssc-main/data_std"
+data_normal_path: "/data/GPT/geoselfssc-main/data_normal2"
+pose_path: "/data/GPT/semantic scene completion/KITTI-360/data_poses"
+split_path: "datasets/kitti_360/splits/sscbench"
+
+image_size: [ 192, 640 ]
+data_stereo: true
+data_fc: 2
+fisheye_rotation: -15
+fisheye_offset: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+is_preprocessed: false
+constrain_to_datapoints: True
+
+data_segmentation: true
+
