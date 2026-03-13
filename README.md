@@ -1,4 +1,4 @@
-# Geo-SelfSSC: Integrating Dense Geometric Priors for Enhanced Self-Supervised Semantic Scene Completion
+# Geo-SelfSSC
 
 # 🏗️️ Setup
 
