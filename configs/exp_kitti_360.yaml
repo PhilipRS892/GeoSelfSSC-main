@@ -11,13 +11,9 @@ num_epochs: 60
 # batch_size: 16
 batch_size: 16
 
-
-#resume_from: "/data/GPT/geoselfssc-main/out/kitti_360/geoselfssc_model_checkpoint/training_checkpoint_176000.pt"
-
 use_backbone: true
 
-# set the segmentation_mode on this level; it is automatically copied down
-# segmentation_mode: "KITTI-360"
+
 segmentation_mode: 'panoptic_deeplab'
 
 depth_mode: 'spi_depth'
