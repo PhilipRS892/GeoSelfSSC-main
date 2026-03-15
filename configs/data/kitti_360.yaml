@@ -1,10 +1,10 @@
 type: "KITTI_360"
-data_path: "/data/GPT/semantic scene completion/KITTI-360"
-data_segmentation_path: "/data/GPT/geoselfssc-main/panoptic_deeplab_R101_os32_cityscapes_hr"
-data_depth_path: "/data/GPT/geoselfssc-main/data_depth"
-data_depth_std_path: "/data/GPT/geoselfssc-main/data_std"
-data_normal_path: "/data/GPT/geoselfssc-main/data_normal2"
-pose_path: "/data/GPT/semantic scene completion/KITTI-360/data_poses"
+data_path: "/data/semantic scene completion/KITTI-360"
+data_segmentation_path: "/data/geoselfssc-main/panoptic_deeplab_R101_os32_cityscapes_hr"
+data_depth_path: "/data/geoselfssc-main/data_depth"
+data_depth_std_path: "/data/geoselfssc-main/data_std"
+data_normal_path: "/data/geoselfssc-main/data_normal2"
+pose_path: "/data/semantic scene completion/KITTI-360/data_poses"
 split_path: "datasets/kitti_360/splits/sscbench"
 
 image_size: [ 192, 640 ]
