@@ -66,7 +66,7 @@ PLOT_ALL_IMAGES = False
 GENERATE_PLY_FILES = False
 PLY_ONLY_FOV = True
 PLY_IDS = list(range(1000, 1600))
-PLY_PATH = Path("/data/GPT/s4c-main/voxel_output")
+PLY_PATH = Path("/")
 PLY_SIZES = [25.6, 51.2]
 
 GENERATE_STATISTICS = False
